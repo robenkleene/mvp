@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 817.0, 282.0, 640.0, 480.0 ],
+		"rect" : [ 320.0, 432.0, 640.0, 480.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -19,6 +19,17 @@
 		"objectsnaponopen" : 0,
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 136.0, 256.0, 31.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "live.button",
@@ -51,7 +62,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 216.0, 92.0, 20.0 ],
 					"text" : "mvp_next_device"
 				}
@@ -131,6 +143,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -144,7 +163,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-136",
 		"parameters" : 		{
 			"obj-4" : [ "live.button", "live.button", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
