@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 348.0, 100.0, 1164.0, 911.0 ],
+		"rect" : [ 440.0, 100.0, 871.0, 911.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -419,9 +419,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 528.0, 640.0, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 8.0, 88.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 16.0, 88.0, 18.0 ],
 					"text" : "No Device",
-					"textjustification" : 0
+					"textjustification" : 1
 				}
 
 			}
@@ -434,8 +434,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 216.0, 32.0, 15.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 88.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -786,7 +784,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 40.0, 640.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 32.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Variation",
@@ -1285,7 +1283,7 @@
 
 			}
  ],
-		"originid" : "pat-443",
+		"originid" : "pat-457",
 		"parameters" : 		{
 			"obj-38" : [ "live.button", "live.button", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
