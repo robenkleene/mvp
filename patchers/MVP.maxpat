@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 823.0, 100.0, 871.0, 911.0 ],
+		"rect" : [ 500.0, 100.0, 871.0, 911.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -47,7 +47,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.0, 304.0, 55.0, 20.0 ],
+					"patching_rect" : [ 712.0, 232.0, 55.0, 20.0 ],
 					"text" : "print path"
 				}
 
@@ -515,7 +515,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.0, 264.0, 51.0, 20.0 ],
+					"patching_rect" : [ 512.0, 320.0, 51.0, 20.0 ],
 					"text" : "s ---bang"
 				}
 
@@ -1068,13 +1068,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
@@ -1349,7 +1342,7 @@
 
 			}
  ],
-		"originid" : "pat-520",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-38" : [ "live.button", "live.button", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
