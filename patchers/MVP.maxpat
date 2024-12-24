@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 500.0, 100.0, 871.0, 911.0 ],
+		"rect" : [ 235.0, 100.0, 871.0, 911.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -20,6 +20,7 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "Link to device to right.",
 					"id" : "obj-53",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -33,6 +34,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Link to device to right.",
 							"parameter_longname" : "Refresh",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -607,6 +609,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Set the variation of the linked device.",
 					"id" : "obj-6",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -618,6 +621,7 @@
 					"presentation_rect" : [ 32.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Set the variation of the linked device.",
 							"parameter_longname" : "Variation",
 							"parameter_modmode" : 4,
 							"parameter_osc_name" : "<default>",
@@ -1007,7 +1011,7 @@
 
 			}
  ],
-		"originid" : "pat-72",
+		"originid" : "pat-80",
 		"parameters" : 		{
 			"obj-53" : [ "Refresh", "Refresh", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
