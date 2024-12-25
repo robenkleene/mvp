@@ -20,6 +20,18 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 424.0, 51.0, 20.0 ],
+					"text" : "active $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "Link to device to right.",
 					"id" : "obj-53",
 					"maxclass" : "live.text",
@@ -35,19 +47,19 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_info" : "Link to device to right.",
-							"parameter_longname" : "Refresh",
+							"parameter_longname" : "Connect",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "Refresh",
+							"parameter_shortname" : "Connect",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Refresh",
-					"texton" : "Refresh",
-					"varname" : "Refresh"
+					"text" : "Connect",
+					"texton" : "Connect",
+					"varname" : "Connect"
 				}
 
 			}
@@ -667,6 +679,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -963,7 +982,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
+					"order" : 1,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1011,9 +1039,9 @@
 
 			}
  ],
-		"originid" : "pat-634",
+		"originid" : "pat-658",
 		"parameters" : 		{
-			"obj-53" : [ "Refresh", "Refresh", 0 ],
+			"obj-53" : [ "Connect", "Connect", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
