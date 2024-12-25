@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 235.0, 100.0, 871.0, 911.0 ],
+		"rect" : [ 580.0, 100.0, 871.0, 911.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -70,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 424.0, 46.0, 20.0 ],
+					"patching_rect" : [ 432.0, 424.0, 46.0, 20.0 ],
 					"text" : "r ---rack"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 504.0, 55.0, 20.0 ],
+					"patching_rect" : [ 488.0, 504.0, 55.0, 20.0 ],
 					"text" : "s ---active"
 				}
 
@@ -200,8 +200,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 488.0, 74.0, 20.0 ],
-					"text" : "set No Device"
+					"patching_rect" : [ 192.0, 488.0, 97.0, 20.0 ],
+					"text" : "set Not Connected"
 				}
 
 			}
@@ -260,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 384.0, 392.0, 29.5, 20.0 ],
+					"patching_rect" : [ 488.0, 392.0, 29.5, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -272,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 384.0, 480.0, 142.0, 20.0 ],
+					"patching_rect" : [ 488.0, 480.0, 142.0, 20.0 ],
 					"text" : "route has_macro_mappings"
 				}
 
@@ -284,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 424.0, 132.0, 20.0 ],
+					"patching_rect" : [ 488.0, 424.0, 132.0, 20.0 ],
 					"text" : "get has_macro_mappings"
 				}
 
@@ -308,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 456.0, 57.0, 20.0 ],
+					"patching_rect" : [ 488.0, 456.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"_persistence" : 1
 					}
@@ -324,7 +324,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 552.0, 74.0, 20.0 ],
+					"patching_rect" : [ 296.0, 552.0, 74.0, 20.0 ],
 					"text" : "sprintf set %s"
 				}
 
@@ -336,7 +336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 272.0, 456.0, 29.5, 20.0 ],
+					"patching_rect" : [ 296.0, 456.0, 29.5, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -360,7 +360,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 488.0, 78.0, 20.0 ],
+					"patching_rect" : [ 296.0, 488.0, 78.0, 20.0 ],
 					"text" : "property name"
 				}
 
@@ -372,7 +372,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 272.0, 528.0, 70.0, 20.0 ],
+					"patching_rect" : [ 296.0, 528.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"_persistence" : 1
 					}
@@ -387,10 +387,10 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.0, 584.0, 51.0, 18.0 ],
+					"patching_rect" : [ 296.0, 584.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 24.0, 88.0, 18.0 ],
-					"text" : "No Device",
+					"text" : "Not Connected",
 					"textjustification" : 1
 				}
 
@@ -1039,7 +1039,7 @@
 
 			}
  ],
-		"originid" : "pat-658",
+		"originid" : "pat-662",
 		"parameters" : 		{
 			"obj-53" : [ "Connect", "Connect", 0 ],
 			"obj-6" : [ "Variation", "Variaton", 0 ],
