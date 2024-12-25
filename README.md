@@ -4,11 +4,12 @@
 
 There's MIDI and audio versions.
 
-Place to the left of a MIDI Effect Rack or Audio Effect Rack to have a knob to automate controlling variations.
+Place to the left of a MIDI or Audio Effect Rack and the `Variation` knob will control variations for that rack.
+
+Place a different device to the right, changes MVP to controlling that device.
 
 ## Controls
 
 MVP shows the name of the currently linked device.
 
-- **Refresh:** Link to the device to the right.
 - **Variation:** Change the selected macro varation of the linked device.
